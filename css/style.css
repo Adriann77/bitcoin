@@ -112,9 +112,10 @@ h1.company-name {
 
 .hamburger {
   position: absolute;
-  top: 3em;
+  top: 4em;
   left: 1em;
   z-index: 500;
+  padding: auto 4em;
   transform: translateY(-50%);
 }
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
@@ -160,6 +161,9 @@ h1.company-name {
 }
 
 @media (min-width: 992px) {
+  h1.company-name {
+    font-size: 6rem;
+  }
   .header {
     grid-template-rows: auto repeat(2, 1fr);
   }
@@ -238,5 +242,10 @@ h1.company-name {
   }
   .hamburger {
     display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .header__text p {
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=style.css.map */
