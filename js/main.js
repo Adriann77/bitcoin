@@ -14,4 +14,4 @@ const HandleCurrentYear = () => {
   footerYear.innerText = year
 }
 
-HandleCurrentYear()
+HandleCurrentYear();
